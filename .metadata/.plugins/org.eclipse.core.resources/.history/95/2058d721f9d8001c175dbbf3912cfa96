@@ -32,6 +32,7 @@ public class Account {
 		int balance = this.getBalance();
 		if(balance>=amount)
 		{
+			System.out.println("Balance amount after withdrawn : "+amount);
 			this.setBalance(balance-amount);
 			return true;
 		}
