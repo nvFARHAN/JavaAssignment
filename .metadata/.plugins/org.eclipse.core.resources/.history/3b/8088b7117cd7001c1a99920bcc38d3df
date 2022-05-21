@@ -1,0 +1,35 @@
+package com.farhan;
+
+public class StudentMain {
+	
+	Student s = new Student();
+	
+	StudentMain()
+	{
+		
+	}
+	
+	StudentMain(int roll,String name,int age,int marks)
+	{
+		if(age>18 && age<60 && marks>0 && marks<500)
+		{
+			this.s.roll=roll;
+			this.s.name=name;
+			this.s.age=age;
+			this.s.marks=marks;
+		}
+		else
+			System.out.println("Please enter valid arguments");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StudentMain s1 = new StudentMain();
+		StudentMain s2 = new StudentMain(239,"Madhuri Patel",20,300);
+		System.out.println(s1.s);
+		System.out.println(s2.s);
+
+	}
+
+}

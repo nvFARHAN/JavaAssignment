@@ -1,0 +1,26 @@
+package com.farhan;
+
+public class Demo {
+	
+	Demo()
+	{
+		System.out.println("This is Demo()");
+	}
+	Demo(String s)
+	{
+		System.out.println("This is Demo(String)");
+	}
+	Demo(int i)
+	{
+		System.out.println("This is Demo(int)");
+	}
+	Demo(float f)
+	{
+		System.out.println("This is Demo(float)");
+	}
+	
+	public static void main(String[] args) {
+		byte b = 10;
+		Demo d = new Demo(b);
+	}
+}

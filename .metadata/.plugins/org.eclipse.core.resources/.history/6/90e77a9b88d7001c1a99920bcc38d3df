@@ -1,0 +1,13 @@
+package com.farhan;
+
+public class Student1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int roll;
+		String name;
+		String address;
+		String collageName;
+	}
+
+}

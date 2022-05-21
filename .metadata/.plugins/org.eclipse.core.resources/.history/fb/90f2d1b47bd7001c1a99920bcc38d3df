@@ -1,0 +1,15 @@
+package com.farhan;
+
+public class Student {
+	
+	int roll;
+	String name;
+	int age;
+	int marks;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

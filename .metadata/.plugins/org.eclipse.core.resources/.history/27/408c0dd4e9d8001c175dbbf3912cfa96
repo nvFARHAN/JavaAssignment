@@ -1,0 +1,9 @@
+package com.farhan;
+
+public class Student {
+	
+	int roll;
+	String name;
+	int age;
+	int marks;
+}
