@@ -23,7 +23,7 @@ public class AccountDetails {
 			a.setAccountId(id);
 			a.setAccountType(type);
 			a.setBalance(balance);
-//			sc.close();
+			sc.close();
 			return a;
 		}
 	}
