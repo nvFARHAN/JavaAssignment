@@ -43,7 +43,7 @@ public class Demo {
 			b.displayDetails();
 			if(b.getClass().getSimpleName().equals("AxisBank"))
 			{
-				AxisBank ab = new AxisBank();
+				AxisBank ab = (AxisBank)b;
 				ab.getCreditCard();
 			}
 		}
