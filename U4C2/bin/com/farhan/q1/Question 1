@@ -1,0 +1,58 @@
+Q1) Explain the difference between IS-A and Has-A relationship with the help of an
+example and explain about access modifiers and their accessibility?
+
+
+IS-A relationship occurs between parent and a child class(inheritance) whereas 
+Has-A relation occurs when an object of a class is an instance variable 
+of another class.
+
+A HAS-A relationship is dynamic (run time) binding 
+while inheritance is a static (compile time) binding.
+
+eg. IS-A relationship
+
+class Vehicle {
+
+}
+
+class Car extends Vehicle {			//Car is a Vehicle
+
+}
+
+class Bike extends Vehicle { 		//Bike is a Vehicle
+
+}
+
+class Truck extends Vehicle {		//Truck is a Vehicle
+
+}
+
+eg HAS-A relationship
+
+class Engine {
+
+}
+
+class PowerBreak {
+
+}
+
+class Turbo {
+
+}
+
+class Car {
+	Engine engine = new Engine();		//Car has an Engine
+	PowerBreak break = new PowerBreak();		//Car has PowerBreak;
+	Turbo turbo = new Turbo();		//Car has Turbo;
+}
+
+
+Access modifiers represents the accessibility(visibility) of member classes, variables, methods etc outside the class and outside the package.
+
+public - accessible everywhere
+private  - accessible only in the same class
+protected - public inside the package but can be accessed outside the package through child class
+default - accessible inside the same package only. If you don't specify access modifier, it will be default.
+
+the outer classes can have public or default access modifiers only.
