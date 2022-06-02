@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.farhan.q3.HatchBack"/>
+    <fullyQualifiedTypeName name="com.farhan.q3.Ola"/>
+    <fullyQualifiedTypeName name="com.farhan.q4.Instructor"/>
+    <fullyQualifiedTypeName name="com.farhan.q4.Address"/>
+    <fullyQualifiedTypeName name="com.farhan.q1.TajHotel"/>
+    <fullyQualifiedTypeName name="com.farhan.q1.RoadSideHotel"/>
+</qualifiedTypeNameHistroy>

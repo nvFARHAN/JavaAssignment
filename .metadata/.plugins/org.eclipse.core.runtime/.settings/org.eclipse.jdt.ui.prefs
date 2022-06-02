@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.farhan.q3.Car"><rhs name\="com.farhan.q3.HatchBack"/></lhs><lhs name\="com.farhan.q3.HatchBack"><rhs name\="com.farhan.q3.HatchBack"/></lhs><lhs name\="com.farhan.q4.Person"><rhs name\="com.farhan.q4.Instructor"/></lhs><lhs name\="com.farhan.q4.Instructor"><rhs name\="com.farhan.q4.Instructor"/></lhs><lhs name\="com.farhan.q4.Address"><rhs name\="com.farhan.q4.Address"/></lhs><lhs name\="com.farhan.q1.Hotel"><rhs name\="com.farhan.q1.TajHotel"/><rhs name\="com.farhan.q1.RoadSideHotel"/></lhs><lhs name\="com.farhan.q1.TajHotel"><rhs name\="com.farhan.q1.TajHotel"/></lhs><lhs name\="com.farhan.q1.RoadSideHotel"><rhs name\="com.farhan.q1.RoadSideHotel"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
