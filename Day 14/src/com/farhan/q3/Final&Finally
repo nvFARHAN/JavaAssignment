@@ -1,0 +1,14 @@
+When we want to run block of code irrespective of if the exception is encountered
+or not, then, we use finally block with try-catch block.
+finally block will run in every condition except if we close the application manually
+with System.exit(1) method or some serious errors like stackOverflow or system shutdown
+etc.
+eg - finally.java
+
+
+final keyword is used with fields, methods or classes.
+final field -> It means that the value of the field can't be changed.
+final method -> It means that we can't override this method.
+final class -> It means that the class can't be extended.
+
+eg - final.java

@@ -6,4 +6,25 @@
     <fullyQualifiedTypeName name="com.farhan.q4.Address"/>
     <fullyQualifiedTypeName name="com.farhan.q1.TajHotel"/>
     <fullyQualifiedTypeName name="com.farhan.q1.RoadSideHotel"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.farhan.q2.ScienceStudent"/>
+    <fullyQualifiedTypeName name="com.farhan.q2.HistoryStudent"/>
+    <fullyQualifiedTypeName name="com.farhan.q1.ZImpl"/>
+    <fullyQualifiedTypeName name="com.farhan.q3.Stadium"/>
+    <fullyQualifiedTypeName name="com.farhan.q3.IPL"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.dsig.dom.DOMValidateContext"/>
+    <fullyQualifiedTypeName name="com.farhan.q2.Citizen"/>
+    <fullyQualifiedTypeName name="javax.management.InstanceAlreadyExistsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.farhan.q2.Employee"/>
+    <fullyQualifiedTypeName name="com.farhan.q2.PermanentEmployee"/>
+    <fullyQualifiedTypeName name="com.farhan.q2.TemporaryEmployee"/>
+    <fullyQualifiedTypeName name="com.farhan.q1.Main"/>
+    <fullyQualifiedTypeName name="com.farhan.q4.Customer"/>
 </qualifiedTypeNameHistroy>
