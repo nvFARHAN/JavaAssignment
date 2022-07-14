@@ -1,0 +1,12 @@
+Transient
+---------
+
+->At the time of serialization, if we don't want to save the value of a variable for 
+some security reasons, such variable should be declared with transient keyword.
+
+->This keyword is applicable only for variables.
+
+->Final variable will take part in serialization irrespective of whether it is declared 
+ with transient keyword or not.
+ 
+->static variable will not take part in serialization as they are not part of the object.

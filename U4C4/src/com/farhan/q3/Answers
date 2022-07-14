@@ -1,0 +1,38 @@
+Checked Exception -
+===================
+1. Checked Exceptions are those exceptions for which compiler gives error at compile 
+time if they are not handled.
+2. Handling of checked exceptions are mandatory irrespective of whether it gives exception
+or not.
+3. Eg. Exception, IOException, SQLException etc.
+
+Unchecked Exception - 
+=====================
+1. Those exceptions for which handling is not mandatory is called unchecked exception.
+2. Compiler does not check for an unchecked exception.
+3. Handled at runtime.
+4. ed. RuntimeException, NullPointerException, ClassCastException
+
+throw -
+=======
+1. throw keyword is used to throw an exception to the caller.
+2. Any exception can be thrown(checked,unchecked,user-defined), just need to create
+an object of that exception and throw it using the keyword throw.
+3. Mainly used to throw exception according to our logic.
+
+throws -
+========
+1. throws keyword belongs to the signature of a method.
+2. It shows that the exception is thrown from that method.
+3. It shows which exception is thrown from that method.
+
+eg. 
+List<Integer> l = new ArrayList<>();
+public void display() throws EmptyException
+{
+	if(l.isEmpty())
+	{
+		EmptyException ee = new EmptyException();
+		throw ee;
+	}
+}

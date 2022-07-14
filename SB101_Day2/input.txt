@@ -1,0 +1,7 @@
+Alpha Beta Gamma Delta
+One Two Three Four
+100
+true
+a
+1.9999
+The End
