@@ -1,0 +1,16 @@
+Q1)
+1.using hibernate we can store java objects.
+2.jdbc throws many checked exceptions
+3.using hibernate we can do s/w independent queries.
+4.we have to write same codes again and again if using jdbc directly.
+
+Q2)
+JPA is a specification to build ORM s/w whereas Hibernate is an implementation of JPA(It is an ORM s/w).
+
+There are 3 layers in business application architecture--
+1. Presentation layer - 
+This layer is used by the users(what user sees)
+2. Business logic layer - 
+In this layer we implements all the business logic according to the business rules.
+3. Database layer - 
+In this layer we store and manipulate data.
